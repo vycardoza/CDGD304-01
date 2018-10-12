@@ -1,18 +1,28 @@
 .vanessa{ font-family:GT Haptik;
-    color:lightpink;
     font-size:50px;
-    margin-bottom: 2pt;}
+    margin-bottom: 2pt;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
 h2{ 
-    font-family: GT Sectra;
+    font-family: Inconsolata;
     text-transform: uppercase; 
     font-weight: 200;
     margin-top: 2pt;
+    text-align: left;
     
 }
-    
+p1{ margin: 60px;}   
 li{
     display: inline;
+    
 }
 .about{
-    ;
+    text-transform: uppercase;
+    font-family: Inconsolata; 
 }
+
+a:link{color: lightgrey;
+       text-decoration: none;}
+a:visited {color: black;}
+a:hover {color: black;}
