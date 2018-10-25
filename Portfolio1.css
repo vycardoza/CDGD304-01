@@ -1,3 +1,7 @@
+body {
+    
+    margin: 50px ;
+}
 .vanessa{ font-family:GT Haptik;
     font-size:50px;
     margin-bottom: 2pt;
@@ -9,17 +13,21 @@ h2{
     text-transform: uppercase; 
     font-weight: 200;
     margin-top: 2pt;
-    text-align: left;
-    
-}
-p1{ margin: 60px;}   
-li{
-    display: inline;
-    
-}
-.about{
+    text-align: left; }
+
+
+
+.about {
     text-transform: uppercase;
-    font-family: Inconsolata; 
+    font-family: Inconsolata;
+    position: absolute ;
+    bottom: 10px ;
+    right: 10px ;
+}
+
+header {
+/*    border: 1px solid red ;*/
+    position: relative ; 
 }
 
 a:link{color: lightgrey;
