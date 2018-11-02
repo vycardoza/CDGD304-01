@@ -1,0 +1,40 @@
+body {
+    
+    margin: 50px ;
+}
+.vanessa{ font-family:GT Haptik;
+    font-size:50px;
+    margin-bottom: 2pt;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+h2{ 
+    font-family: Inconsolata;
+    text-transform: uppercase; 
+    font-weight: 200;
+    margin-top: 2pt;
+    text-align: left; }
+
+
+
+.menu {
+    text-transform: uppercase;
+    font-family:'Inconsolata', monospace;
+    position: absolute ;
+    bottom:500px ;
+    right: 30px ;
+/*    margin-top:100px;*/
+/*    margin-left:500px;*/
+    
+
+}
+
+header {
+/*    border: 1px solid red ;*/
+    position: relative ; 
+}
+
+a:link{color: darkgrey;
+       text-decoration: none;}
+a:visited {color: darkgrey;}
+a:hover {color: black;}
