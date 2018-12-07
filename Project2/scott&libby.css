@@ -1,0 +1,54 @@
+h1 { font-family: 'Sail', cursive;
+    font-size:70px;
+    margin-bottom: 2pt;
+    text-align: left;
+    color: black;
+}
+
+
+p.menu {
+    font-family: 'EB Garamond', serif;
+    position: absolute ;
+    bottom:840px ;
+    right: 30px ;
+    font-size: 20px;
+}
+
+body {
+background-image:url(rose2.jpg);
+text-align: center;
+    
+}
+
+p.story {
+    font-family:'EB Garamond', 'serif';
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link{color: black;
+       text-decoration: none;}
+a:visited {color: black;}
+a:hover {color: black;}
