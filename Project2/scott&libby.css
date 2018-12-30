@@ -1,27 +1,33 @@
-h1 { font-family: 'Sail', cursive;
+h1 { font-family: 'Montserrat', sans-serif;
     font-size:70px;
     margin-bottom: 2pt;
     text-align: left;
     color: black;
+    text-transform: uppercase;
+    font-weight: 600; 
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    
 }
 
 
 p.menu {
-    font-family: 'EB Garamond', serif;
-    position: absolute ;
+    font-family: 'playball', cursive;
     bottom:840px ;
     right: 30px ;
-    font-size: 20px;
+    font-size: 28px;
+    color: white;
 }
 
 body {
-background-image:url(rose2.jpg);
 text-align: center;
+background-color: #590505;
     
 }
 
 p.story {
-    font-family:'EB Garamond', 'serif';
+    font-family:'Cardo', 'serif';
     font-size: 18px;
     color: black;
     margin-top: 20px;
@@ -30,6 +36,7 @@ p.story {
     margin-right: 150px;
     text-align: left;
 }
+
 
 
 
