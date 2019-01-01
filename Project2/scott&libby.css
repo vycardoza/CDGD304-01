@@ -45,8 +45,13 @@ h2{
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #98121F;
-
-
+    background-color: white;
+    margin-bottom: auto;
+    margin-top:auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 0pt;
+    margin-right: 0pt;
 
 }
 
@@ -55,12 +60,23 @@ h2{
     background-color: white;
     color: black;
     font-family: 'Cardo';
-    font-size: 12.5pt;
+    font-size: 14pt;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 20pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
 }
 
 
+.border{
+    background-color: white;
+    padding-bottom: 50px;
+    margin-left: 0pt;
+    margin-right:0pt;
 
-
+}
 
 
 
