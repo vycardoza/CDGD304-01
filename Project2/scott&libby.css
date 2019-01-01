@@ -78,9 +78,34 @@ h2{
 
 }
 
+.page2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #98121F;
+    background-color: white;
+    margin-bottom: auto;
+    margin-top:auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    
+}
 
-
-
+.hotelname {
+    font-family: 'Cardo', serif;
+    font-size:20px;
+    color: black;
+    font-weight:100;
+    background-color: white;
+    margin-bottom: auto;
+    margin-top:auto;
+    padding-bottom: 15px;
+    margin-left: 0pt;
+    margin-right: 0pt;
+}
 
 
 
