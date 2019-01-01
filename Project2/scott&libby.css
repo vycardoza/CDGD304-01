@@ -1,14 +1,15 @@
 h1 { font-family: 'Montserrat', sans-serif;
     font-size:70px;
-    margin-bottom: 2pt;
+    margin-bottom: 1pt;
+    margin-top: 1pt;
     text-align: left;
     color: black;
     text-transform: uppercase;
     font-weight: 600; 
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     text-align: center;
     color: white;
-    
+
 }
 
 
@@ -21,20 +22,40 @@ p.menu {
 }
 
 body {
-text-align: center;
-background-color: #590505;
-    
+    text-align: center;
+    background-color: #590505;
+
 }
 
 p.story {
     font-family:'Cardo', 'serif';
     font-size: 18px;
     color: black;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: left;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+    background-color: white;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #98121F;
+
+
+
+}
+
+
+.story {
+    background-color: white;
+    color: black;
+    font-family: 'Cardo';
+    font-size: 12.5pt;
 }
 
 
@@ -47,15 +68,7 @@ p.story {
 
 
 
-
-
-
-
-
-
-
-
-a:link{color: black;
-       text-decoration: none;}
-a:visited {color: black;}
-a:hover {color: black;}
+a:link{color: white;
+    text-decoration: none;}
+a:visited {color: white;}
+a:hover {color: #98121F;}
