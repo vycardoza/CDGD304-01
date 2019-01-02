@@ -38,7 +38,7 @@ p.story {
     background-color: white;
 
 }
-h2{
+.subtitle {
     font-family: 'Montserrat', sans-serif;
     font-size:30px;
     text-transform: uppercase;
@@ -81,35 +81,41 @@ h2{
     background-color: white; 
 }
 
-.grid {
+
+.img{
     display: grid;
-    grid-template-columns: [start] 1fr [middle]  1fr [end];
-    grid-template-rows: auto 500px 500px; 
-}
-
-section.full_width{
-    grid-column-start: start;
-    grid-column-end: end;
-    /*                grid-column: start/end; */
-}
-
-
-}
-
-section.secondleft_column{
+    /*    grid-template-columns: repeat(2, 1fr); */
+    /*    grid-auto-columns: 100px;*/
+    height: 500px;
     width: 500px;
-   
-
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 500px 500px 500px; 
 }
 
-section.right_column{
-width:500px;
+.full_width{
+    width: 1395px;
+    align-content: center;
+    background-color: white; 
 }
 
-img{ 
-    width: 100%;
-/*    height: 100%;*/
-/*    object-fit: cover; */
+
+
+.left_column{
+    background-color: white;
+    align-content: center;
+/*    grid-column-start: 1;*/
+    grid-column-end: 2;
+
+
+}
+.right_column{
+    align-content: center;
+/*    grid-column-start: 1;*/
+    grid-column-end: 2;
+     background-color: white;
 }
 
 
