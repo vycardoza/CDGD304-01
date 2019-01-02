@@ -56,20 +56,53 @@ body {
 
 .Accommodations{
     font-family: 'Cardo', serif;
-    text-align: center;
-    font-size: 14pt;
-    line-height: 20pt;
-    background-color: white;
+    font-size:12pt;
     color: black;
+    font-weight:400;
+    background-color: white;
+    margin-bottom: auto;
+    margin-top:auto;
     padding-bottom: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
-    line-height: 20pt;
+    padding-top: 15px;
     margin-left: 0pt;
     margin-right: 0pt;
     
-}
+
+   
     
+}
+
+.myButton {
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b32b46), color-stop(1, #b32b46));
+	background:-moz-linear-gradient(top, #b32b46 5%, #b32b46 100%);
+	background:-webkit-linear-gradient(top, #b32b46 5%, #b32b46 100%);
+	background:-o-linear-gradient(top, #b32b46 5%, #b32b46 100%);
+	background:-ms-linear-gradient(top, #b32b46 5%, #b32b46 100%);
+	background:linear-gradient(to bottom, #b32b46 5%, #b32b46 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b32b46', endColorstr='#b32b46',GradientType=0);
+	background-color:#b32b46;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:5px solid #b32b46;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+	padding:5px 31px;
+	text-decoration:none;
+
+}
+
+.myButton:active {
+	position:absolute;
+	top:80px;
+}
+
+
+   
     
 a:link{color: white;
     text-decoration: none;}
