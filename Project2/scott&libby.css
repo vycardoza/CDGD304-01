@@ -84,38 +84,33 @@ p.story {
 
 .img{
     display: grid;
-    /*    grid-template-columns: repeat(2, 1fr); */
-    /*    grid-auto-columns: 100px;*/
-    height: 500px;
-    width: 500px;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-auto-columns: auto;
+    
 }
 #grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 500px 500px 500px; 
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: auto auto auto; 
 }
 
 .full_width{
-    width: 1395px;
     align-content: center;
-    background-color: white; 
+
 }
 
 
 
 .left_column{
-    background-color: white;
+
     align-content: center;
-/*    grid-column-start: 1;*/
-    grid-column-end: 2;
+
 
 
 }
 .right_column{
     align-content: center;
-/*    grid-column-start: 1;*/
-    grid-column-end: 2;
-     background-color: white;
+    
 }
 
 
